@@ -1,60 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.lan.css">
-    <title>Medical Duarte</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clínica Medical Duarte</title>
+    <link rel="stylesheet" href="./styles.lan.css" />
 </head>
+
 <body>
+
+    <!-- HEADER -->
     <header>
-  <div class="logo">Clínica Medical Duarte</div>
-  <nav>
-    <a href="#especialistas">Especialistas</a>
-    <a href="#servicios">Servicios</a>
-    <a href="#contacto">Contacto</a>
-  </nav>
-</header>
+        <div class="logo">Clínica Medical Duarte</div>
 
-<a href="../LOGIN/login.html">
-  <button class="login-button" aria-label="Login">Login</button>
-</a>
-<main>
-  <h1 id="especialistas">Conoce a Nuestros Especialistas</h1>
+        <nav>
+            <a href="#especialistas">Especialistas</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
 
-  <div class="cards-container">
-    <article class="card">
-      <img src="https://i.pinimg.com/736x/e7/82/50/e78250ff0a6d567e67ac726fc4e1ccdf.jpg" alt="Dra. Ana Martínez - Cardióloga" />
-      <div class="card-content">
-        <h3>Dra. Ana Martínez</h3>
-        <p>Cardióloga con más de 15 años de experiencia en diagnóstico y tratamiento de enfermedades cardiovasculares.</p>
-        <button>Contactar</button>
-      </div>
-    </article>
+    <!-- BOTÓN LOGIN -->
+    <a href="../LOGIN/login.html" aria-label="Iniciar sesión">
+        <button class="login-button">Login</button>
+    </a>
 
-    <article class="card">
-      <img src="https://i.pinimg.com/1200x/04/c4/2e/04c42e6920000d68e0a71c08547c7872.jpg" alt="Dr. Luis Gómez - Dermatólogo" />
-      <div class="card-content">
-        <h3>Dr. Luis Gómez</h3>
-        <p>Especialista en dermatología, enfocado en tratamientos para el cuidado de la piel y enfermedades dermatológicas.</p>
-        <button>Contactar</button>
-      </div>
-    </article>
+    <!-- MAIN -->
+    <main>
 
-    <article class="card">
-      <img src="https://i.pinimg.com/1200x/c8/ba/7b/c8ba7bfd593a40112fe4ad1761865ac4.jpg" alt="Dr. Mario Sánchez - Ortopedista" />
-      <div class="card-content">
-        <h3>Dr. Mario Sánchez</h3>
-        <p>Ortopedista experto en lesiones deportivas y problemas musculoesqueléticos, con tratamiento innovador.</p>
-        <button>Contactar</button>
-      </div>
-    </article>
-  </div>
-</main>
+        <h1 id="especialistas">Conoce a Nuestros Especialistas</h1>
 
-<footer id="contacto">
-  &copy; 2025 Clínica Medical Duarte. Todos los derechos reservados.
-</footer>
+        <section class="cards-container">
+
+            <!-- CARD 1 -->
+            <article class="card">
+                <img src="https://i.pinimg.com/736x/e7/82/50/e78250ff0a6d567e67ac726fc4e1ccdf.jpg"
+                     alt="Dra. Ana Martínez - Cardióloga" />
+
+                <div class="card-content">
+                    <h3>Dra. Ana Martínez</h3>
+                    <p>Cardióloga con más de 15 años de experiencia en diagnóstico y tratamiento de enfermedades cardiovasculares.</p>
+                    <button>Contactar</button>
+                </div>
+            </article>
+
+            <!-- CARD 2 -->
+            <article class="card">
+                <img src="https://i.pinimg.com/1200x/04/c4/2e/04c42e6920000d68e0a71c08547c7872.jpg"
+                     alt="Dr. Luis Gómez - Dermatólogo" />
+
+                <div class="card-content">
+                    <h3>Dr. Luis Gómez</h3>
+                    <p>Especialista en dermatología, enfocado en tratamientos avanzados para el cuidado de la piel.</p>
+                    <button>Contactar</button>
+                </div>
+            </article>
+
+            <!-- CARD 3 -->
+            <article class="card">
+                <img src="https://i.pinimg.com/1200x/c8/ba/7b/c8ba7bfd593a40112fe4ad1761865ac4.jpg"
+                     alt="Dr. Mario Sánchez - Ortopedista" />
+
+                <div class="card-content">
+                    <h3>Dr. Mario Sánchez</h3>
+                    <p>Ortopedista experto en lesiones deportivas y problemas musculoesqueléticos, con tratamientos modernos.</p>
+                    <button>Contactar</button>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- FUTURA SECCIÓN SERVICIOS -->
+        <section id="servicios" style="margin-top: 3rem; text-align:center;">
+            <h2 style="color:#eafcff; text-shadow: 0 0 6px rgba(0,0,0,0.5); margin-bottom:1rem;">Nuestros Servicios</h2>
+            <p style="color:#404c4e; max-width:800px; margin:auto;">
+                Próximamente podrás explorar todos los servicios disponibles en Clínica Medical Duarte,
+                desde consultas especializadas hasta exámenes diagnósticos avanzados.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contacto">
+        &copy; 2025 Clínica Medical Duarte. Todos los derechos reservados.
+    </footer>
 
 </body>
 </html>
